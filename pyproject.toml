@@ -1,10 +1,10 @@
 [project]
-name = "prosperity4btest"
+name = "imc_p4_bt"
 description = "Backtester for IMC Prosperity 4 algorithms"
 version = "1.0.0"
 readme = "README.md"
 license = {file = "LICENSE"}
-authors = []
+authors = [{name = "Raj Kothari", email = "rkothari40@gatech.edu"}]
 keywords = ["imc", "prosperity", "backtest", "backtester"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -27,12 +27,11 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-prosperity4btest = "prosperity4bt.__main__:main"
+imc-p4-bt = "prosperity4bt.__main__:main"
 
 [project.urls]
-Repository = "https://github.com/rkothari3/imc-prosperity-4-backtester"
-Issues = "https://github.com/rkothari3/imc-prosperity-4-backtester/issues"
-Changelog = "https://github.com/rkothari3/imc-prosperity-4-backtester/releases"
+Repository = "https://github.com/rkothari3/IMC_P4_Backtester"
+Issues = "https://github.com/rkothari3/IMC_P4_Backtester/issues"
 
 [tool.setuptools.packages.find]
 include = ["prosperity4bt", "prosperity4bt.*"]
