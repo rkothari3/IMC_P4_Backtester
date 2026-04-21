@@ -59,7 +59,7 @@ jobs:
 
     environment:
       name: pypi
-      url: https://pypi.org/p/prosperity4btest
+      url: https://pypi.org/p/imc_p4_bt
 
     permissions:
       id-token: write
