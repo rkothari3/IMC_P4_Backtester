@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 _LOCAL_VIS_PORT = 5173
-_DEPLOYED_VIS_URL = "https://jmerle.github.io/imc-prosperity-4-visualizer"
+_DEPLOYED_VIS_URL = "https://imc-prosperity-4-visualizer.vercel.app"
 
 
 def _get_visualizer_base_url() -> str:
